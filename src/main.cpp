@@ -11,12 +11,18 @@
  */
 
 int fsrPin = A0;
+int threshold = 300;
 void setup() {
     Serial.begin(9600);
 }
 
 void loop() {
     int fsrValue = analogRead(fsrPin);
+    Serial.println(fsrValue);
+    if (fsrValue > threshold) {
+        Serial.println("Pressure Detected!");
+    }
+
 
 
 }
