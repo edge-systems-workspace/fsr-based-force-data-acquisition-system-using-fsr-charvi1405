@@ -16,19 +16,7 @@ void setup() {
 }
 
 void loop() {
+    int fsrValue = analogRead(fsrPin);
 
-    // TODO 5:
-    // Read analog value from FSR
 
-    // TODO 6:
-    // Print raw ADC value
-
-    // TODO 7:
-    // Apply simple threshold logic (e.g., detect pressure)
-
-    // TODO 8:
-    // Print pressure detection message
-
-    // TODO 9:
-    // Add delay (500ms or 1 second)
 }
