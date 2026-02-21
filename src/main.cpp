@@ -22,6 +22,7 @@ void loop() {
     if (fsrValue > threshold) {
         Serial.println("Pressure Detected!");
     }
+    delay(300);
 
 
 
